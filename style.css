@@ -44,7 +44,7 @@ li, h3 {
 input,button{
   outline:none;
 }
-.task-button {
+.task-btn {
   background: none;
   border: 0px;
   color: #888;
