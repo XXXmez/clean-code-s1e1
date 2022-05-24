@@ -143,11 +143,11 @@ button:hover {
   display:none;
 }
 
-.edit-mode > .item-text__read {
+.edit-mode .item-text__read {
   display:inline-block;
   width:224px;
 }
 
-.edit-mode > .item-text__label {
+.edit-mode .item-text__label {
   display:none;
 }
