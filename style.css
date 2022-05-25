@@ -1,25 +1,28 @@
 /* Basic Style */
+
+/*           list-items             */
+
 body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
-.header {
+.other {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.header-img {
+.other-img {
   width: 100%;
 }
-.header-more {
+.other-more {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .header {
+  .other {
     text-align: center;
   }
   
@@ -29,12 +32,12 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.task-add__input {
+.input-add__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
-.task-add {
+.input-add {
   display: flex;
 }
 ul {
@@ -71,8 +74,8 @@ button:hover {
   margin: 0;
   text-transform: uppercase;
 }
-.task-add__input,
-.item-text__read {
+.input-add__input,
+.list-items__read {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -84,13 +87,13 @@ button:hover {
   font-family: Lato, sans-serif;
   color: #888;
 }
-.item-text__read:focus,
-.task-add__input:focus {
+.list-items__read:focus,
+.input-add__input:focus {
   color: #333;
 }
 
 /* New Task */
-.main-title > .title-section {
+.input-title.title-section {
   display: block;
   margin: 0 0 20px;
 }
@@ -111,16 +114,16 @@ button:hover {
   vertical-align: middle;
 }
 
-.item-checkbox {
+.list-item__checkbox {
   margin: 0 10px;
 }
-.item-text {
+.list-item__text {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.item-text__read {
+.list-items__read {
   width: 226px;
 }
 .delete-img {
@@ -133,21 +136,21 @@ button:hover {
 }
 
 /* Completed */
-#completed-tasks .item-text__label {
+#completed-tasks .list-items__label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.item-text__read {
+.list-items__read {
   display:none;
 }
 
-.edit-mode .item-text__read {
+.list-item__edit__mode .list-item__read {
   display:inline-block;
   width:224px;
 }
 
-.edit-mode .item-text__label {
+.list-item__edit__mode .list-item__label {
   display:none;
 }

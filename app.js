@@ -37,7 +37,7 @@ var createNewTaskElement=function(taskString){
 
     //Each elements, needs appending
     checkBox.type="checkbox";
-    checkBox.className = 'item-checkbox';
+    checkBox.className = 'list-item__checkbox';
     editInput.type="text";
     editInput.className="item-text item-text__read";
 
@@ -90,7 +90,7 @@ var editTask=function(){
     var editInput=listItem.querySelector('input[type=text]');
     var label=listItem.querySelector("label");
     var editBtn=listItem.querySelector(".edit");
-    var containsClass=listItem.classList.contains("edit-mode");
+    var containsClass=listItem.classList.contains("list-item__edit__mode");
     //If class of the parent is .editmode
     if(containsClass){
 
@@ -104,7 +104,7 @@ var editTask=function(){
     }
 
     //toggle .editmode on the parent.
-    listItem.classList.toggle("edit-mode");
+    listItem.classList.toggle("list-item__edit__mode");
 };
 
 
