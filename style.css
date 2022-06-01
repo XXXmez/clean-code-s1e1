@@ -18,7 +18,7 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .other {
     text-align: center;
@@ -49,11 +49,11 @@ ul {
 }
 li,
 h3 {
-  list-style:none;
+  list-style: none;
 }
 input,
 button {
-  outline:none;
+  outline: none;
 }
 .task-btn {
   background: none;
@@ -69,7 +69,7 @@ button {
 }
 /* Heading */
 .title-section {
-  color:#333;
+  color: #333;
   font-weight: 700;
   font-size: 15px;
   border-bottom: 2px solid #333;
@@ -146,14 +146,14 @@ button {
 
 /* Edit Task */
 .list-item__text__read {
-  display:none;
+  display: none;
 }
 
 .list-item__edit__mode .list-item__text__read {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 .list-item__edit__mode .list-item__text__label {
-  display:none;
+  display: none;
 }
