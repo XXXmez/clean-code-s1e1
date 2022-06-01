@@ -30,7 +30,7 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-section.input {
+.input {
   margin-block-start: 1em;
   margin-block-end: 1em;
 }
@@ -64,7 +64,7 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-button:hover {
+.task-btn:hover {
   color: #3a3a3a;
 }
 /* Heading */
