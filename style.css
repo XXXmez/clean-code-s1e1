@@ -99,7 +99,7 @@ button {
   display: block;
   margin: 0 0 20px;
 }
-#new-task {
+.input-add__input {
   width: 318px;
 }
 
@@ -138,7 +138,7 @@ button {
 }
 
 /* Completed */
-#completed-tasks .list-item__text__label {
+.completed-list .list-item__text__label {
   text-decoration: line-through;
   color: #888;
 }
