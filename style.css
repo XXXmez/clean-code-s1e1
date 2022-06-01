@@ -11,10 +11,10 @@
   display: block;
   text-align: right;
 }
-.other-img {
+.other__img {
   width: 100%;
 }
-.other-more {
+.other__more {
   font-family: fantasy, cursive;
 }
 
